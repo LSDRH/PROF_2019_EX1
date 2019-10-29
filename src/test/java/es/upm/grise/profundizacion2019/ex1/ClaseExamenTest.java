@@ -5,10 +5,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class ClaseExamenTest {
-
+	public ClaseExamen clase = new ClaseExamen();
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test1() {
+		assertEquals(0, clase.metodoAProbar(3,2),0);
 	}
 
 }
